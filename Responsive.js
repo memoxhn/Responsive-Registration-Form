@@ -9,9 +9,6 @@ const form = (event) => {
     const country = document.getElementById("country").value
     const termsChkBox = document.getElementById("terms")
     const newsChkBox = document.getElementById("news")
-    termsChkBox.checked
-    newsChkBox.checked
-
 
     if (!email || !password | !repassword | !fullname | !country) {
         alert("Please fill all the spaces")
