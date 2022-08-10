@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.form-section {
+    background-color: #e0dede;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-form {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 20px;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.signup-form-header {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.form-inputs-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-field-container {
+    font-family: 'Roboto', sans-serif;
+}
+
+.submit-button-container {
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Dancing Script', cursive;
+}
