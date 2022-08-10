@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .item {
     width: 200px;
     min-height: 60px;
@@ -10,16 +19,8 @@
 
 .item-variant-2 {
     min-height: 80px;
-
 }
 
 .item-variant-3 {
     min-height: 100px;
-}
-
-.container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
 }
